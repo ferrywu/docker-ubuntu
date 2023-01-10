@@ -9,3 +9,6 @@ RUN apt install -y samba smbclient net-tools
 RUN apt install -y build-essential flex bison dwarves libssl-dev libelf-dev bc libncurses-dev
 RUN apt install -y linux-headers-generic
 
+# python3 is required for building WSL kernel
+RUN apt install -y python3 python-is-python3
+
