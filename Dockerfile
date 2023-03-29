@@ -4,9 +4,10 @@ RUN apt update && \
     #
     # general tools
     #
+    apt install -y vim && \
     apt install -y rar p7zip-full && \
-    apt install -y samba smbclient net-tools && \
-    apt install -y python3 python-is-python3 && \
+    apt install -y samba smbclient net-tools iputils-ping iproute2 && \
+    apt install -y python2-minimal python3 python-is-python3 && \
     #
     # build linux kernel requirements
     #
