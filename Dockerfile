@@ -24,6 +24,8 @@ RUN apt update && \
                    gettext libssl-dev xsltproc rsync wget unzip python3 python-is-python3 && \
     # for generate .vdi file
     apt install -y qemu-utils && \
+    # for generate .iso file
+    apt install -y genisoimage && \
     #
     # build Yocto
     #
