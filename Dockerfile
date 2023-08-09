@@ -12,6 +12,7 @@ RUN apt update && \
     apt install -y cpio rar p7zip-full && \
     apt install -y samba smbclient net-tools iputils-ping iproute2 hostname nfs-common curl && \
     apt install -y python2-minimal python3 python-is-python3 && \
+    apt install -y isort flake8 shellcheck && \
     #
     # build linux kernel requirements
     #
